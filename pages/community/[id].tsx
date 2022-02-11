@@ -20,7 +20,7 @@ const CommunityPostDetail: NextPage = () => {
         </div>
         <div>
           <div className="mt-2 px-4 text-gray-700">
-            <span className="text-orange-500 font-medium">Q.</span> What is the
+            <span className="text-sky-500 font-medium">Q.</span> What is the
             best mandu restaurant?
           </div>
           <div className="flex px-4 space-x-5 mt-3 text-gray-700 py-2.5 border-t border-b-[2px]  w-full">
@@ -80,7 +80,7 @@ const CommunityPostDetail: NextPage = () => {
             placeholder="Answer this question!"
             required
           />
-          <button className="mt-2 w-full bg-orange-500 hover:bg-orange-600 text-white py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 focus:outline-none ">
+          <button className="mt-2 w-full bg-sky-500 hover:bg-sky-600 text-white py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium focus:ring-2 focus:ring-offset-2 focus:ring-sky-500 focus:outline-none ">
             Reply
           </button>
         </div>
