@@ -1,9 +1,9 @@
 import type { NextPage } from "next";
-import Layout from "../../components/layout";
-import Message from "../../components/message";
+import Layout from "@components/layout";
+import Message from "@components/message";
 
 const ChatDetail: NextPage = () => {
-  return(
+  return (
     <Layout canGoBack title="Steve">
       <div className="py-10 pb-16 px-4 space-y-4">
         <Message message="Hi how much are you selling them for?" />
@@ -24,6 +24,6 @@ const ChatDetail: NextPage = () => {
         </form>
       </div>
     </Layout>
-);
+  );
 };
 export default ChatDetail;

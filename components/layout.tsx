@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { cls } from "../libs/utils";
+import { cls } from "../libs/client/utils";
 import { useRouter } from "next/router";
 
 interface LayoutProps {
@@ -16,12 +16,10 @@ export default function Layout({
   hasTabBar,
   children,
 }: LayoutProps) {
-
   const router = useRouter();
   const onClick = () => {
     router.back();
   };
-
 
   return (
     <div>
