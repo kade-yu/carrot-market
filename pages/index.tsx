@@ -2,10 +2,18 @@ import type { NextPage } from "next";
 import FloatingButton from "@components/floating-button";
 import Item from "@components/item";
 import Layout from "@components/layout";
+import useUser from "@libs/client/useUser";
+import Head from "next/head";
 
 const Home: NextPage = () => {
+  const { user, isLoading } = useUser();
+
+  console.log(user);
   return (
     <Layout title="홈" hasTabBar>
+      <Head>
+        <title>Home</title>
+      </Head>
       <div className="flex flex-col space-y-5 divide-y">
         <Item
           id={1}
@@ -17,7 +25,7 @@ const Home: NextPage = () => {
         />
         <Item
           id={1}
-          key={1}
+          key={2}
           title="중 2과학 강의"
           price="59,000"
           comments={1}
@@ -25,7 +33,7 @@ const Home: NextPage = () => {
         />
         <Item
           id={1}
-          key={1}
+          key={3}
           title="중 3과학 강의"
           price="79,000"
           comments={1}

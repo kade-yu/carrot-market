@@ -6,10 +6,10 @@ import Layout from "@components/layout";
 const Community: NextPage = () => {
   return (
     <Layout hasTabBar title="학교생활">
-      <div className="space-y-10">
+      <div className="space-y-10 pt-5">
         {[1, 2, 3, 4, 5, 6].map((_, i) => (
           <Link key={i} href={`/community/${i}`}>
-            <a className="flex cursor-pointer flex-col pt-4 items-start border">
+            <a className="flex cursor-pointer flex-col pt-4 items-start border border-sky-500 shadow-md rounded-xl">
               <span className="flex ml-4 items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800">
                 과학 질문
               </span>

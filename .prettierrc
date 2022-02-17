@@ -1,16 +1,19 @@
 {
-    "git.autofetch": true,
-    "explorer.confirmDelete": false,
-    "editor.formatOnSave": true,
-    "prettier.javascriptEnable": ["javascript", "javascriptreact"],
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-    },
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "window.zoomLevel": 1,
-    "prettier.tabWidth": 4,
-    "prettier.endOfLine": "auto"
+  "git.autofetch": true,
+  "explorer.confirmDelete": false,
+  "editor.formatOnSave": true,
+  "prettier.javascriptEnable": ["javascript", "javascriptreact"],
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 1,
+  "prettier.tabWidth": 4,
+  "prettier.endOfLine": "auto",
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  }
 }
